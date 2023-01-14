@@ -1,6 +1,6 @@
-const io = require("socket.io")(8800, {
+const io = require("socket.io")(8900, {
   cors: {
-    origin: ["https://liansocialmedia.ml"],
+    origin: ["https://liansocialmedia.ml", "https://api.liansocialmedia.ml"],
   },
 });
 
